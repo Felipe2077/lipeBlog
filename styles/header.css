@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
+header {
+  display: flex;
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  padding: 40px 0px 40px 0px;
+  color: #ffffff;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.search-area {
+  display: flex;
+  justify-content: space-around;
+}
+h1,
+h2 {
+  font-weight: 400;
+}
+input {
+  width: calc(80vw - 0em);
+  height: calc(5vh - 0em);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  padding-left: calc(6vh - 0em);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  background-image: url(/images/seachIcon.png);
+  background-size: 20px;
+  background-position: calc(1vh - 0em);
+  background-repeat: no-repeat;
+}
+
+textarea:focus,
+input:focus {
+  outline: 0;
+}

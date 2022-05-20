@@ -36,7 +36,7 @@ input {
   padding-top: 5px;
   padding-bottom: 5px;
   color: #ffffff;
-  background-image: url(/images/seachIcon.png);
+  background-image: url("/images/seachIcon.svg");
   background-size: 20px;
   background-position: calc(1vh - 0em);
   background-repeat: no-repeat;
